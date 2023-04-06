@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- tags Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Titulo da Página  -->
+    <title>Madeiras.net</title>
+</head>
+    <body>
+        <!-- Area do header -->
+        <header>
+            <!-- Area superior antes do menu -->
+            <div class="top_menu">
+                <div class="float-left">
+                    <ul class="header_social">
+                        <li><a class="nav-link" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="nav-link" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>	
+                </div>
+                <div class="float-right">
+                    <a class="nav-link" href="mailto:medical@example.com">
+                        <i class="fa fa-envelope"></i>
+                        email@email.com.br
+                    </a>
+                    <a class="nav-link" href="tel:+5511915158587">
+                        <i class="fa fa-phone"></i>
+                        (11) 95863-6573
+                    </a>
+                </div>
+            </div>	
+            <!-- Area do menu -->
+            <div class="menu">
+                <nav class="nav-bar">
+                    <div class="logo"> <img src="img/logo.png" alt="Logo GN" class="img_logo_header"> </div>
+                    <div class="nav-bar-right">
+                        <div class="nav-list">
+                            <ul>
+                                <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">SOBRE NÓS</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+                            </ul>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+        
+                    <div class="mobile-menu-icon"> 
+                        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i> 
+                    </div>
+                </nav>
+                <!-- Menu responsivo do mobile -->
+                <div class="mobile-menu">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">SOBRE NÓS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+                    </ul>
+        
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Area do banner -->
+        <div class="banner">
+            <img src="img/banner.png" alt="Imagem do banner">
+            <a href="#" class="cta-btn">Confira agora</a>
+        </div>
+
+        <!-- Area dos produtos destaques -->
+        <div class="product-title">
+            <center>
+                <h1>Produtos Best Sellers</h1>
+                <div class="row-title"></div>
+            </center>
+        </div>
+        <div class="product-row">
+            <div class="product-card">
+                <img src="img/cadeira.png" alt="cadeira">
+                <h2>Cadeira modelo Startup Branca</h2>
+                <p class="price">R$ 80,90</p>
+                <p class="description">Cadeira de branca modelo startup. Revestimento de plástico e base de madeira fixa.</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/mesa.png" alt="mesa">
+                <h2>Mesa de madeira de festa</h2>
+                <p class="price">R$ 109,90</p>
+                <p class="description">Mesa feita totalmente de madeira compensada envernizada de fácil manuseio, podendo ser guardada horizontalmente..</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/sofa.png" alt="sofa">
+                <h2>Sofá de couro autentico</h2>
+                <p class="price">R$ 1590,90</p>
+                <p class="description">Sofá de base de madeira de carvalho com revestimento de couro autentico preto.</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <div class="product-row">
+            <div class="product-card">
+                <img src="img/compensado.png" alt="cadeira">
+                <h2>Chapa de madeira compensado de 5mm de espessura </h2>
+                <p class="price">R$ 37,90</p>
+                <p class="description">Chapa de madeira de carvalho compensado para uso comerciál de de fabricação de peças de 5mm de espessura tendo 1 metro quadrado.</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/porta.png" alt="mesa">
+                <h2>Porta de madeira modelo miami com delhates de aluminio</h2>
+                <p class="price">R$ 125,90</p>
+                <p class="description">Porta já com maçaneta, 10 cm de espessura.</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/guarda-roupa.png" alt="porta">
+                <h2>Guarda roupa de madeira modelo retro</h2>
+                <p class="price">R$ 290,90</p>
+                <p class="description">Guarda roupa feita de madeira bruta modelo retro de 2 portas.</p>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+
+        <!-- Area dos serviços -->
+        <div class="services-row">
+            <div class="product-title">
+                <div class="row-title"></div>
+                <h1>Principais <br>Serviços</h1>
+                <div class="row-title"></div>
+            </div>
+            <div class="services-card">
+                <img src="img/carp1.jpg" alt="carpintaria">
+                <h2>Serviços de carpintaria</h2>
+                <p>Os serviços de carpintaria oferecem uma ampla gama de soluções personalizadas em madeira para atender às necessidades dos clientes. Desde a criação de móveis sob medida até a instalação de pisos de madeira, portas e janelas, os carpinteiros possuem habilidades e conhecimentos especializados em trabalhar com madeira para criar produtos duráveis e esteticamente agradáveis.</p>
+                <button>Contratar</button>
+
+              </div>
+
+              <div class="services-card">
+                <img src="img/moveis3.jpg" alt="moveis">
+                <h2>Criação de Móveis planejados</h2>
+                <p>Nossos melhores carpinteiros irão medir e fazer avaliações sobre o comodo requeirido e com essa demandas apresentar aos contratantes diversas opções posiveis de movéis planejados do gosto do cliente. Dessa forma o cliente sempre terá movéis exlusivos em seus ambientes preferidos e com extreama qualidade que somente os capinteiros da moderna madeira podem oferecer.</p>
+                <button>Contratar</button>
+
+              </div>
+
+              <div class="services-card">
+                <img src="img/marc1.jpg" alt="marcenaria">
+                <h2>Marcenaria especializada</h2>
+                <p>Inclui a fabricação de móveis personalizados, reparos em móveis existentes, instalação de decks, molduras e rodapés, construção de escadas e escadas de mão, instalação de painéis de parede de madeira, instalação de armários de cozinha e muitos outros.  Isso garantirá que o resultado final atenda às suas expectativas e necessidades, proporcionando beleza e funcionalidade para o seu espaço.</p>
+                <button>Contratar</button>
+              </div>
+        </div>
+
+        <!-- Area do parallax -->
+        <div class="parallax">
+            <div class="parallax-titles">
+                <p>Fale Conosco:</p>
+                <h1>(11) 958636-573</h1>
+            </div>
+            <img src="img/logo.png" alt="marcenaria">
+        </div>
+
+        <!-- Area do footer -->
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="info">
+                  <h3>Informações de contato</h3>
+                  <p><i class="fa fa-envelope"></i> Rua Exemplo, 123 - Bairro Exemplo - Cidade/UF</p>
+                  <p><i class="fa fa-phone"></i> (00) 1234-5678</p>
+                  <p><i class="fa fa-envelope"></i> contato@exemplo.com</p>
+                </div>
+                <div class="nav">
+                  <h3>Navegação</h3>
+                  <ul>
+                    <li class="nav-item-footer"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item-footer"><a href="#" class="nav-link">PRODUTOS</a></li>
+                    <li class="nav-item-footer"><a href="#" class="nav-link">SOBRE NÓS</a></li>
+                    <li class="nav-item-footer"><a href="#" class="nav-link">CONTATO</a></li>
+                  </ul>
+                </div>
+                <div class="map">
+                    <h3>Localização</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4379.951303311593!2d-46.60966928112354!3d-23.58322793679167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1651105282919!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <center>
+                <br>
+                <p>&copy; Todos os direitos resevados ao Moderna Maderia. 2023.</p>
+              </center>
+            </div>
+        </footer>
+
+        <!-- Chamando as funções de funcionalidade js -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
